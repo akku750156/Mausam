@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap");
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container__input {
+  width: 230px;
+  height: 25px;
+  padding: 5px;
+  outline: none;
+  background-color: rgb(199, 199, 199);
+  border: 1px solid black;
+  font-family: "Play", sans-serif;
+  color: black;
+  font-size: 20px;
+}
+.container__btn {
+  width: 80px;
+  margin-left: 20px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 6px;
+  font-weight: 600;
+  font-family: "Play", sans-serif;
+  cursor: pointer;
+  background-color: rgb(199, 199, 199);
+}
+.container__btn:hover {
+  background-color: rgb(199, 199, 199);
+}
+.input__btn {
+  width: 350px;
+}
+.box__temp {
+  font-family: "Dosis", sans-serif;
+  font-size: 100px;
+  font-weight: 800;
+  margin-top: 20px;
+}
+.box__city {
+  font-family: "Dosis", sans-serif;
+  font-size: 60px;
+  margin: 20px;
+  margin-top: 230px;
+  /* text-shadow: 2px 2px 5px black; */
+}
+.temp_varience {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}

@@ -1,0 +1,7 @@
+.App {
+  text-align: center;
+  background: linear-gradient(to bottom right, #000d1f 52%, #214a4f 37%);
+}
+/* detail.main.temp - 273 > 16
+              ? `${classes.root1}`
+              : `${classes.root2}` */
